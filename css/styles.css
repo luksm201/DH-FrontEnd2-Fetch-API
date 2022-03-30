@@ -27,15 +27,29 @@ h1{
   background-color: white;
   border-radius: 20px;
   margin: 0 auto;
-  height: 200px;
   width: 50%;
   max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px
 }
 
 .btnContainer{
   padding: 20px 0;
   text-align: center;
+  
 }
 .btnContainer button{
   padding: 5px 15px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+  border-color: crimson;
+  font-size: medium;
+}
+
+img{
+  border-radius: 10px;
+  border: 2px solid blue;
 }
